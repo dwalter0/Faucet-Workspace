@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gresources>
+  <gresource prefix="/application">
+    <file>button_form.glade</file>
+  </gresource>
+  <gresource prefix="/application/icons">
+    <file>VLAN.png</file>
+    <file>ACL.png</file>
+    <file>Router.png</file>
+    <file>Switch.png</file>
+    <file>Meter.png</file>
+    <file>VLAN_cb.png</file>
+    <file>ACL_cb.png</file>
+    <file>Router_cb.png</file>
+    <file>Switch_cb.png</file>
+    <file>Meter_cb.png</file>
+  </gresource>
+  <gresource prefix="/application/css">
+  <file>style.css</file>
+  <file>colorblindstyle.css</file>
+  </gresource>
+</gresources>

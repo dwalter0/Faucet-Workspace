@@ -1,0 +1,718 @@
+---
+dps:
+  s31:
+    advertise_interval: 30
+    arp_neighbor_timeout: 250
+    dp_id: 2997844592
+    drop_broadcast_source_address: true
+    drop_spoofed_faucet_mac: true
+    group_table: false
+    hardware: GenericTFM
+    high_priority: 9001
+    highest_priority: 9099
+    ignore_learn_ins: 10
+    interfaces:
+      2:
+        description: "tagged link #1 to s33:1"
+        dot1x: false
+        dot1x_acl: false
+        dot1x_mab: false
+        enabled: true
+        hairpin: false
+        loop_protect: false
+        loop_protect_external: false
+        max_hosts: 255
+        name: b2
+        opstatus_reconf: true
+        output_only: false
+        permanent_learn: false
+        tagged_vlans:
+          - vlan-1
+          - vlan-2
+        unicast_flood: true
+        restricted_bcast_arpnd: false
+      4:
+        description: "tagged link #2 to s32:4"
+        dot1x: false
+        dot1x_acl: false
+        dot1x_mab: false
+        enabled: true
+        hairpin: false
+        loop_protect: false
+        loop_protect_external: false
+        max_hosts: 255
+        name: b4
+        opstatus_reconf: true
+        output_only: false
+        permanent_learn: false
+        tagged_vlans:
+          - vlan-1
+          - vlan-2
+        unicast_flood: true
+        restricted_bcast_arpnd: false
+      8:
+        description: "untagged link #1 to u362"
+        dot1x: false
+        dot1x_acl: false
+        dot1x_mab: false
+        enabled: true
+        hairpin: false
+        loop_protect: false
+        loop_protect_external: false
+        max_hosts: 255
+        name: b8
+        native_vlan: vlan-2
+        opstatus_reconf: true
+        output_only: false
+        permanent_learn: false
+        unicast_flood: true
+        restricted_bcast_arpnd: false
+      6:
+        description: "tagged link #2 to s34:4"
+        dot1x: false
+        dot1x_acl: false
+        dot1x_mab: false
+        enabled: true
+        hairpin: false
+        loop_protect: false
+        loop_protect_external: false
+        max_hosts: 255
+        name: b6
+        opstatus_reconf: true
+        output_only: false
+        permanent_learn: false
+        tagged_vlans:
+          - vlan-1
+          - vlan-2
+        unicast_flood: true
+        restricted_bcast_arpnd: false
+      5:
+        description: "tagged link #2 to s33:4"
+        dot1x: false
+        dot1x_acl: false
+        dot1x_mab: false
+        enabled: true
+        hairpin: false
+        loop_protect: false
+        loop_protect_external: false
+        max_hosts: 255
+        name: b5
+        opstatus_reconf: true
+        output_only: false
+        permanent_learn: false
+        tagged_vlans:
+          - vlan-1
+          - vlan-2
+        unicast_flood: true
+        restricted_bcast_arpnd: false
+      1:
+        description: "tagged link #1 to s32:1"
+        dot1x: false
+        dot1x_acl: false
+        dot1x_mab: false
+        enabled: true
+        hairpin: false
+        loop_protect: false
+        loop_protect_external: false
+        max_hosts: 255
+        name: b1
+        opstatus_reconf: true
+        output_only: false
+        permanent_learn: false
+        tagged_vlans:
+          - vlan-1
+          - vlan-2
+        unicast_flood: true
+        restricted_bcast_arpnd: false
+      3:
+        description: "tagged link #1 to s34:1"
+        dot1x: false
+        dot1x_acl: false
+        dot1x_mab: false
+        enabled: true
+        hairpin: false
+        loop_protect: false
+        loop_protect_external: false
+        max_hosts: 255
+        name: b3
+        opstatus_reconf: true
+        output_only: false
+        permanent_learn: false
+        tagged_vlans:
+          - vlan-1
+          - vlan-2
+        unicast_flood: true
+        restricted_bcast_arpnd: false
+      7:
+        description: "untagged link #1 to u351"
+        dot1x: false
+        dot1x_acl: false
+        dot1x_mab: false
+        enabled: true
+        hairpin: false
+        loop_protect: false
+        loop_protect_external: false
+        max_hosts: 255
+        name: b7
+        native_vlan: vlan-1
+        opstatus_reconf: true
+        output_only: false
+        permanent_learn: false
+        unicast_flood: true
+        restricted_bcast_arpnd: false
+    learn_ban_timeout: 10
+    learn_jitter: 10
+    low_priority: 9000
+    lowest_priority: 0
+    max_host_fib_retry_count: 10
+    max_hosts_per_resolve_cycle: 5
+    max_resolve_backoff_time: 32
+    metrics_rate_limit_sec: 0
+    priority_offset: 0
+    proactive_learn_v4: true
+    proactive_learn_v6: true
+    timeout: 300
+    use_idle_timeout: false
+    port_table_scale_factor: 1.0
+  s33:
+    advertise_interval: 30
+    arp_neighbor_timeout: 250
+    dp_id: 2997844594
+    drop_broadcast_source_address: true
+    drop_spoofed_faucet_mac: true
+    group_table: false
+    hardware: GenericTFM
+    high_priority: 9001
+    highest_priority: 9099
+    ignore_learn_ins: 10
+    interfaces:
+      8:
+        description: "untagged link #1 to u3A6"
+        dot1x: false
+        dot1x_acl: false
+        dot1x_mab: false
+        enabled: true
+        hairpin: false
+        loop_protect: false
+        loop_protect_external: false
+        max_hosts: 255
+        name: b8
+        native_vlan: vlan-2
+        opstatus_reconf: true
+        output_only: false
+        permanent_learn: false
+        unicast_flood: true
+        restricted_bcast_arpnd: false
+      1:
+        description: "tagged link #1 to s31:2"
+        dot1x: false
+        dot1x_acl: false
+        dot1x_mab: false
+        enabled: true
+        hairpin: false
+        loop_protect: false
+        loop_protect_external: false
+        max_hosts: 255
+        name: b1
+        opstatus_reconf: true
+        output_only: false
+        permanent_learn: false
+        tagged_vlans:
+          - vlan-1
+          - vlan-2
+        unicast_flood: true
+        restricted_bcast_arpnd: false
+      6:
+        description: "tagged link #2 to s34:6"
+        dot1x: false
+        dot1x_acl: false
+        dot1x_mab: false
+        enabled: true
+        hairpin: false
+        loop_protect: false
+        loop_protect_external: false
+        max_hosts: 255
+        name: b6
+        opstatus_reconf: true
+        output_only: false
+        permanent_learn: false
+        tagged_vlans:
+          - vlan-1
+          - vlan-2
+        unicast_flood: true
+        restricted_bcast_arpnd: false
+      3:
+        description: "tagged link #1 to s34:3"
+        dot1x: false
+        dot1x_acl: false
+        dot1x_mab: false
+        enabled: true
+        hairpin: false
+        loop_protect: false
+        loop_protect_external: false
+        max_hosts: 255
+        name: b3
+        opstatus_reconf: true
+        output_only: false
+        permanent_learn: false
+        tagged_vlans:
+          - vlan-1
+          - vlan-2
+        unicast_flood: true
+        restricted_bcast_arpnd: false
+      7:
+        description: "untagged link #1 to u395"
+        dot1x: false
+        dot1x_acl: false
+        dot1x_mab: false
+        enabled: true
+        hairpin: false
+        loop_protect: false
+        loop_protect_external: false
+        max_hosts: 255
+        name: b7
+        native_vlan: vlan-1
+        opstatus_reconf: true
+        output_only: false
+        permanent_learn: false
+        unicast_flood: true
+        restricted_bcast_arpnd: false
+      4:
+        description: "tagged link #2 to s31:5"
+        dot1x: false
+        dot1x_acl: false
+        dot1x_mab: false
+        enabled: true
+        hairpin: false
+        loop_protect: false
+        loop_protect_external: false
+        max_hosts: 255
+        name: b4
+        opstatus_reconf: true
+        output_only: false
+        permanent_learn: false
+        tagged_vlans:
+          - vlan-1
+          - vlan-2
+        unicast_flood: true
+        restricted_bcast_arpnd: false
+      2:
+        description: "tagged link #1 to s32:2"
+        dot1x: false
+        dot1x_acl: false
+        dot1x_mab: false
+        enabled: true
+        hairpin: false
+        loop_protect: false
+        loop_protect_external: false
+        max_hosts: 255
+        name: b2
+        opstatus_reconf: true
+        output_only: false
+        permanent_learn: false
+        tagged_vlans:
+          - vlan-1
+          - vlan-2
+        unicast_flood: true
+        restricted_bcast_arpnd: false
+      5:
+        description: "tagged link #2 to s32:5"
+        dot1x: false
+        dot1x_acl: false
+        dot1x_mab: false
+        enabled: true
+        hairpin: false
+        loop_protect: false
+        loop_protect_external: false
+        max_hosts: 255
+        name: b5
+        opstatus_reconf: true
+        output_only: false
+        permanent_learn: false
+        tagged_vlans:
+          - vlan-1
+          - vlan-2
+        unicast_flood: true
+        restricted_bcast_arpnd: false
+    learn_ban_timeout: 10
+    learn_jitter: 10
+    low_priority: 9000
+    lowest_priority: 0
+    max_host_fib_retry_count: 10
+    max_hosts_per_resolve_cycle: 5
+    max_resolve_backoff_time: 32
+    metrics_rate_limit_sec: 0
+    priority_offset: 0
+    proactive_learn_v4: true
+    proactive_learn_v6: true
+    timeout: 300
+    use_idle_timeout: false
+    port_table_scale_factor: 1.0
+  s34:
+    advertise_interval: 30
+    arp_neighbor_timeout: 250
+    dp_id: 2997844595
+    drop_broadcast_source_address: true
+    drop_spoofed_faucet_mac: true
+    group_table: false
+    hardware: GenericTFM
+    high_priority: 9001
+    highest_priority: 9099
+    ignore_learn_ins: 10
+    interfaces:
+      3:
+        description: "tagged link #1 to s33:3"
+        dot1x: false
+        dot1x_acl: false
+        dot1x_mab: false
+        enabled: true
+        hairpin: false
+        loop_protect: false
+        loop_protect_external: false
+        max_hosts: 255
+        name: b3
+        opstatus_reconf: true
+        output_only: false
+        permanent_learn: false
+        tagged_vlans:
+          - vlan-1
+          - vlan-2
+        unicast_flood: true
+        restricted_bcast_arpnd: false
+      1:
+        description: "tagged link #1 to s31:3"
+        dot1x: false
+        dot1x_acl: false
+        dot1x_mab: false
+        enabled: true
+        hairpin: false
+        loop_protect: false
+        loop_protect_external: false
+        max_hosts: 255
+        name: b1
+        opstatus_reconf: true
+        output_only: false
+        permanent_learn: false
+        tagged_vlans:
+          - vlan-1
+          - vlan-2
+        unicast_flood: true
+        restricted_bcast_arpnd: false
+      8:
+        description: "untagged link #1 to u3C8"
+        dot1x: false
+        dot1x_acl: false
+        dot1x_mab: false
+        enabled: true
+        hairpin: false
+        loop_protect: false
+        loop_protect_external: false
+        max_hosts: 255
+        name: b8
+        native_vlan: vlan-2
+        opstatus_reconf: true
+        output_only: false
+        permanent_learn: false
+        unicast_flood: true
+        restricted_bcast_arpnd: false
+      7:
+        description: "untagged link #1 to u3B7"
+        dot1x: false
+        dot1x_acl: false
+        dot1x_mab: false
+        enabled: true
+        hairpin: false
+        loop_protect: false
+        loop_protect_external: false
+        max_hosts: 255
+        name: b7
+        native_vlan: vlan-1
+        opstatus_reconf: true
+        output_only: false
+        permanent_learn: false
+        unicast_flood: true
+        restricted_bcast_arpnd: false
+      2:
+        description: "tagged link #1 to s32:3"
+        dot1x: false
+        dot1x_acl: false
+        dot1x_mab: false
+        enabled: true
+        hairpin: false
+        loop_protect: false
+        loop_protect_external: false
+        max_hosts: 255
+        name: b2
+        opstatus_reconf: true
+        output_only: false
+        permanent_learn: false
+        tagged_vlans:
+          - vlan-1
+          - vlan-2
+        unicast_flood: true
+        restricted_bcast_arpnd: false
+      5:
+        description: "tagged link #2 to s32:6"
+        dot1x: false
+        dot1x_acl: false
+        dot1x_mab: false
+        enabled: true
+        hairpin: false
+        loop_protect: false
+        loop_protect_external: false
+        max_hosts: 255
+        name: b5
+        opstatus_reconf: true
+        output_only: false
+        permanent_learn: false
+        tagged_vlans:
+          - vlan-1
+          - vlan-2
+        unicast_flood: true
+        restricted_bcast_arpnd: false
+      6:
+        description: "tagged link #2 to s33:6"
+        dot1x: false
+        dot1x_acl: false
+        dot1x_mab: false
+        enabled: true
+        hairpin: false
+        loop_protect: false
+        loop_protect_external: false
+        max_hosts: 255
+        name: b6
+        opstatus_reconf: true
+        output_only: false
+        permanent_learn: false
+        tagged_vlans:
+          - vlan-1
+          - vlan-2
+        unicast_flood: true
+        restricted_bcast_arpnd: false
+      4:
+        description: "tagged link #2 to s31:6"
+        dot1x: false
+        dot1x_acl: false
+        dot1x_mab: false
+        enabled: true
+        hairpin: false
+        loop_protect: false
+        loop_protect_external: false
+        max_hosts: 255
+        name: b4
+        opstatus_reconf: true
+        output_only: false
+        permanent_learn: false
+        tagged_vlans:
+          - vlan-1
+          - vlan-2
+        unicast_flood: true
+        restricted_bcast_arpnd: false
+    learn_ban_timeout: 10
+    learn_jitter: 10
+    low_priority: 9000
+    lowest_priority: 0
+    max_host_fib_retry_count: 10
+    max_hosts_per_resolve_cycle: 5
+    max_resolve_backoff_time: 32
+    metrics_rate_limit_sec: 0
+    priority_offset: 0
+    proactive_learn_v4: true
+    proactive_learn_v6: true
+    timeout: 300
+    use_idle_timeout: false
+    port_table_scale_factor: 1.0
+  s32:
+    advertise_interval: 30
+    arp_neighbor_timeout: 250
+    dp_id: 2997844593
+    drop_broadcast_source_address: true
+    drop_spoofed_faucet_mac: true
+    group_table: false
+    hardware: GenericTFM
+    high_priority: 9001
+    highest_priority: 9099
+    ignore_learn_ins: 10
+    interfaces:
+      1:
+        description: "tagged link #1 to s31:1"
+        dot1x: false
+        dot1x_acl: false
+        dot1x_mab: false
+        enabled: true
+        hairpin: false
+        loop_protect: false
+        loop_protect_external: false
+        max_hosts: 255
+        name: b1
+        opstatus_reconf: true
+        output_only: false
+        permanent_learn: false
+        tagged_vlans:
+          - vlan-1
+          - vlan-2
+        unicast_flood: true
+        restricted_bcast_arpnd: false
+      3:
+        description: "tagged link #1 to s34:2"
+        dot1x: false
+        dot1x_acl: false
+        dot1x_mab: false
+        enabled: true
+        hairpin: false
+        loop_protect: false
+        loop_protect_external: false
+        max_hosts: 255
+        name: b3
+        opstatus_reconf: true
+        output_only: false
+        permanent_learn: false
+        tagged_vlans:
+          - vlan-1
+          - vlan-2
+        unicast_flood: true
+        restricted_bcast_arpnd: false
+      7:
+        description: "untagged link #1 to u373"
+        dot1x: false
+        dot1x_acl: false
+        dot1x_mab: false
+        enabled: true
+        hairpin: false
+        loop_protect: false
+        loop_protect_external: false
+        max_hosts: 255
+        name: b7
+        native_vlan: vlan-1
+        opstatus_reconf: true
+        output_only: false
+        permanent_learn: false
+        unicast_flood: true
+        restricted_bcast_arpnd: false
+      5:
+        description: "tagged link #2 to s33:5"
+        dot1x: false
+        dot1x_acl: false
+        dot1x_mab: false
+        enabled: true
+        hairpin: false
+        loop_protect: false
+        loop_protect_external: false
+        max_hosts: 255
+        name: b5
+        opstatus_reconf: true
+        output_only: false
+        permanent_learn: false
+        tagged_vlans:
+          - vlan-1
+          - vlan-2
+        unicast_flood: true
+        restricted_bcast_arpnd: false
+      8:
+        description: "untagged link #1 to u384"
+        dot1x: false
+        dot1x_acl: false
+        dot1x_mab: false
+        enabled: true
+        hairpin: false
+        loop_protect: false
+        loop_protect_external: false
+        max_hosts: 255
+        name: b8
+        native_vlan: vlan-2
+        opstatus_reconf: true
+        output_only: false
+        permanent_learn: false
+        unicast_flood: true
+        restricted_bcast_arpnd: false
+      6:
+        description: "tagged link #2 to s34:5"
+        dot1x: false
+        dot1x_acl: false
+        dot1x_mab: false
+        enabled: true
+        hairpin: false
+        loop_protect: false
+        loop_protect_external: false
+        max_hosts: 255
+        name: b6
+        opstatus_reconf: true
+        output_only: false
+        permanent_learn: false
+        tagged_vlans:
+          - vlan-1
+          - vlan-2
+        unicast_flood: true
+        restricted_bcast_arpnd: false
+      2:
+        description: "tagged link #1 to s33:2"
+        dot1x: false
+        dot1x_acl: false
+        dot1x_mab: false
+        enabled: true
+        hairpin: false
+        loop_protect: false
+        loop_protect_external: false
+        max_hosts: 255
+        name: b2
+        opstatus_reconf: true
+        output_only: false
+        permanent_learn: false
+        tagged_vlans:
+          - vlan-1
+          - vlan-2
+        unicast_flood: true
+        restricted_bcast_arpnd: false
+      4:
+        description: "tagged link #2 to s31:4"
+        dot1x: false
+        dot1x_acl: false
+        dot1x_mab: false
+        enabled: true
+        hairpin: false
+        loop_protect: false
+        loop_protect_external: false
+        max_hosts: 255
+        name: b4
+        opstatus_reconf: true
+        output_only: false
+        permanent_learn: false
+        tagged_vlans:
+          - vlan-1
+          - vlan-2
+        unicast_flood: true
+        restricted_bcast_arpnd: false
+    learn_ban_timeout: 10
+    learn_jitter: 10
+    low_priority: 9000
+    lowest_priority: 0
+    max_host_fib_retry_count: 10
+    max_hosts_per_resolve_cycle: 5
+    max_resolve_backoff_time: 32
+    metrics_rate_limit_sec: 0
+    priority_offset: 0
+    proactive_learn_v4: true
+    proactive_learn_v6: true
+    timeout: 300
+    use_idle_timeout: false
+    port_table_scale_factor: 1.0
+version: 2
+vlans:
+  vlan-2:
+    dot1x_assigned: false
+    max_hosts: 255
+    minimum_ip_size_check: true
+    proactive_arp_limit: 2052
+    proactive_nd_limit: 2052
+    targeted_gw_resolution: false
+    unicast_flood: true
+    vid: 200
+  vlan-1:
+    dot1x_assigned: false
+    max_hosts: 255
+    minimum_ip_size_check: true
+    proactive_arp_limit: 2052
+    proactive_nd_limit: 2052
+    targeted_gw_resolution: false
+    unicast_flood: true
+    vid: 100
